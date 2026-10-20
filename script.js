@@ -109,3 +109,6 @@ n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(
     var t='Hola, soy '+n+' y quiero pedir cita para '+p+'.\nTamaño: '+d.get('tam')+'\nServicio: '+d.get('serv')+'\nDía: '+dia+' ('+d.get('franja')+')'+((d.get('msg')||'').trim()?'\nNotas: '+d.get('msg').trim():'');
     window.open('https://wa.me/34600000000?text='+encodeURIComponent(t),'_blank','noopener')})
 })();
+
+// Redes sociales de la demo (sin dirección real)
+document.querySelectorAll('[data-social]').forEach(function(a){a.addEventListener('click',function(e){if(a.getAttribute('href')==='#')e.preventDefault()})});
