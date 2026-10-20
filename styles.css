@@ -235,3 +235,53 @@ body{font-size:16px;padding-bottom:70px}.wrap{width:calc(100% - 32px)}
 .ba{border-radius:24px}.lb .pv{left:-4px}.lb .nx{right:-4px}.cap{opacity:1;transform:none;font-size:12px}.cap b{font-size:14px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}html{scroll-behavior:auto}.js .reveal{opacity:1;transform:none}}
 h1,h2{text-wrap:balance}.why h2{margin-bottom:18px}
+
+/* ===== Versión compacta ===== */
+body{font-size:15.5px;line-height:1.55}
+.wrap{width:min(1080px,100% - 40px)}
+.bar-in{height:62px}.brand .logo{width:36px;height:36px}.brand span{font-size:18px}.brand small{font-size:10px}
+.nav a:not(.btn){font-size:14px;padding:7px 12px}.btn{font-size:14px;padding:12px 20px}.nav{top:62px}
+.eyebrow{font-size:11px;margin-bottom:12px}.lead{font-size:clamp(15px,1.5vw,17px)}
+.sec{padding:clamp(40px,5.5vw,72px) 0}.sec.tight{padding-top:20px}
+.sec-h{margin-bottom:30px;max-width:640px}.sec-h h2,.status h2,.why h2{font-size:clamp(26px,3.4vw,40px)}.sec-h p:last-child{margin-top:10px}
+.page-h{padding:clamp(28px,4vw,52px) 0 8px}.page-h h1{font-size:clamp(32px,4.6vw,54px);margin-bottom:12px}
+/* hero: cabe en una pantalla */
+.hero{padding:clamp(16px,2.5vw,36px) 0 clamp(24px,3.5vw,44px)}
+.hero h1{font-size:clamp(34px,4.5vw,58px);margin:2px 0 16px}.hero h1 em{font-size:.46em;margin-top:8px}
+.hero .lead{margin-bottom:20px}.mini{margin-top:20px;font-size:13px}
+.hero-vis{max-width:480px;margin-left:auto}
+.chip{font-size:12px;padding:8px 13px}
+.marquee{padding:12px 0;margin:6px 0}.mq{font-size:19px;gap:22px}
+/* tarjetas y bloques */
+.svc-grid{gap:14px}.svc{padding:20px 20px 18px;gap:6px}.svc .ic{width:44px;height:44px;font-size:21px;border-radius:13px}
+.svc h3{font-size:20px}.svc p{font-size:14px}.svc .from b{font-size:19px}.svc .go{width:32px;height:32px;right:16px;bottom:16px}
+.ba{max-width:400px;border-radius:26px}.ba-tag{font-size:11px;padding:7px 11px;top:12px}.after .ba-tag{right:12px}.before .ba-tag{left:12px}
+.steps{gap:16px}.step .n{width:44px;height:44px;font-size:19px;margin-bottom:12px;box-shadow:0 0 0 6px var(--cream)}.steps:before{top:30px}
+.step h3{font-size:18px;margin-bottom:5px}.step p{font-size:14px}
+.why-in{gap:36px}.why-list{gap:10px}.why-list li{padding:14px 18px}.why-list b{font-size:18px}.why-list span{font-size:14px}
+.strip{gap:10px}.strip .tile{aspect-ratio:1/1.1}.mosaic{gap:12px}.tile{border-radius:20px}
+.filters{margin-bottom:18px}.fbtn{font-size:13px;padding:9px 16px}
+.faq-wrap{gap:36px}details{padding:2px 18px}summary{font-size:16px;padding:14px 32px 14px 0}summary:after{width:26px;height:26px;font-size:17px}details p{padding-bottom:14px;font-size:14.5px}
+.status-sec{padding-top:24px}.status{padding:clamp(22px,3.5vw,38px);border-radius:28px;gap:26px}.status p{margin:8px 0 16px}
+.door{padding:16px 22px;min-width:230px}.door b{font-size:24px}.door small{font-size:14px}
+.dogcard.small{width:150px}
+/* horario */
+.hor .door.big{padding:26px}.hor .door.big b{font-size:clamp(30px,4vw,44px)}.hor .door.big small{font-size:16px}
+.clockcard{padding:20px}.clock{font-size:clamp(34px,4.6vw,52px);margin:6px 0 12px}.today{font-size:18px}
+.timeline{padding:16px;margin-top:18px;gap:6px}.tl-row{font-size:13px;padding:4px 8px}.tl-track{height:11px}
+.hnotes{gap:14px;margin-top:18px}.hnotes>div{padding:18px}.hnotes h3{font-size:18px}.hnotes p{font-size:14px}
+/* servicios */
+.calc{border-radius:26px}.calc-form{padding:clamp(18px,3vw,30px);gap:16px}.calc-form h2{font-size:26px}
+.seg span{padding:11px 6px}.opts span{padding:9px 14px;font-size:13px}legend{margin-bottom:8px}
+.calc-out{padding:20px}.calc-out .dogcard{width:46%}.total{font-size:clamp(44px,5vw,60px)}
+.prices th,.prices td{padding:14px 18px}.prices tbody th b{font-size:17px}.prices td{font-size:17px}.prices tbody th span{font-size:13px}
+.incl{gap:10px}.incl li{padding:14px 8px;font-size:13px}.incl span{font-size:24px}
+/* contacto */
+.contact{gap:20px}.form{padding:clamp(18px,3vw,30px);gap:13px;border-radius:24px}.form h2{font-size:26px}
+input:not([type=radio]):not([type=checkbox]),select,textarea{padding:11px 13px;font-size:15px;border-radius:12px}
+.row{gap:12px}.info{gap:12px}.card{padding:18px;border-radius:18px}.card h3{font-size:17px}.big-link{font-size:24px}.big-link.sm{font-size:16px}
+.map{margin-top:10px}
+/* pie */
+.foot{margin-top:36px;padding-top:40px}.foot-top{padding-bottom:22px;gap:24px}.foot b{font-size:19px}.foot p,.foot a{font-size:14px}
+.giant{font-size:clamp(50px,9vw,110px)}
+@media(max-width:620px){body{font-size:15px}.hero-vis{max-width:320px;margin:0 auto}.ba{max-width:340px}.bar-in{height:58px}.nav{top:58px}}
